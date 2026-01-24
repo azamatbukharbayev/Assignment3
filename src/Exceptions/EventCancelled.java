@@ -1,4 +1,7 @@
 package Exceptions;
 
-public class EventCancelled {
+public class EventCancelled extends RuntimeException {
+    public EventCancelled(String message) {
+        super(message);
+    }
 }

@@ -1,4 +1,7 @@
 package Exceptions;
 
-public class InvalidTicketCode {
+public class InvalidTicketCode extends RuntimeException {
+    public InvalidTicketCode(String message) {
+        super(message);
+    }
 }
