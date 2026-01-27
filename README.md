@@ -8,6 +8,6 @@ domain - events, seat, ticket, customer
 
 repos - interfaces
 
-services = business logic
+services - business logic
 
 db - postgres implement
