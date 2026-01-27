@@ -1,7 +1,9 @@
 package Exceptions;
 
+import java.util.UUID;
+
 public class EventCancelled extends RuntimeException {
-    public EventCancelled(String message) {
-        super(message);
+    public EventCancelled(UUID eventId) {
+        super("Event is cancelled: "+ eventId);
     }
 }
